@@ -1,0 +1,34 @@
+$ date -uIs
+2016-05-03T06:09:28+0000
+
+$ gpg --with-fingerprint adw.asc 
+pub  rsa4096/E9C54C53 2013-08-12
+      Key fingerprint = BBAF 910D 1BC9 DDF4 1043  629F BC21 1FCE E9C5 4C53
+uid                   Andrew David Wong <adw@andrewdavidwong.com>
+uid                   Andrew David Wong <adw@qubes-os.org>
+uid                   Andrew David Wong <adw@keybase.io>
+uid                   Andrew David Wong <adw@ucsd.edu>
+uid                   Andrew David Wong <adwong@wustl.edu>
+uid                   Andrew David Wong <andrewwong@ucsd.edu>
+sub  rsa4096/1E16283D 2013-08-12 [expires: 2014-08-12]
+sub  rsa4096/39503030 2014-07-13 [expires: 2017-08-12]
+sub  rsa4096/7F508125 2014-07-13 [expires: 2015-08-12]
+sub  rsa4096/563FEA0D 2015-06-15 [expires: 2017-08-12]
+sub  rsa4096/CE2C673B 2013-08-12 [expires: 2014-08-12]
+
+$ gpg --with-fingerprint axon.asc 
+pub  rsa4096/8E97231E 2013-10-03
+      Key fingerprint = 746A B6DE 2A02 B5A5 DCBD  3F32 A4EC AE9C 8E97 231E
+uid                   Axon. <axon@openmailbox.org>
+sub  rsa4096/09121384 2013-10-03 [expires: 2014-10-03]
+sub  rsa4096/7544F57C 2014-08-07 [expires: 2016-10-03]
+sub  rsa4096/635234AF 2014-08-07 [expires: 2016-10-03]
+sub  rsa4096/D5880B63 2013-10-03 [expires: 2014-10-03]
+
+$ gpg --with-fingerprint qubes-doc.asc 
+pub  rsa4096/2A019A17 2015-02-25
+      Key fingerprint = E11D 15C6 D204 3576 9FFA  A456 8CE1 3735 2A01 9A17
+uid                   Andrew David Wong (Qubes Documentation Signing Key)
+uid                   Axon (Qubes Documentation Signing Key)
+uid                   Axon <axon@openmailbox.org>
+
