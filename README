@@ -1,5 +1,5 @@
 $ date -uI
-2017-02-01
+2017-07-16
 
 $ gpg --with-fingerprint adw.asc
 pub   rsa4096/0xBC211FCEE9C54C53 2013-08-12 [C]
@@ -12,10 +12,12 @@ uid                             Andrew David Wong <adw@ucsd.edu>
 uid                             Andrew David Wong <adwong@wustl.edu>
 uid                             Andrew David Wong <andrewwong@ucsd.edu>
 sub   rsa4096/0x403530261E16283D 2013-08-12 [E] [expired: 2014-08-12]
-sub   rsa4096/0xDB4DD3BC39503030 2014-07-13 [S] [expires: 2017-08-12]
+sub   rsa4096/0xDB4DD3BC39503030 2014-07-13 [S] [expires: 2018-08-12]
 sub   rsa4096/0xA9B1C8C27F508125 2014-07-13 [E] [expired: 2015-08-12]
 sub   rsa4096/0x2C98CF7B563FEA0D 2015-06-15 [E] [expires: 2017-08-12]
 sub   rsa4096/0xB9355E37CE2C673B 2013-08-12 [S] [expired: 2014-08-12]
+sub   rsa4096/0x03A02AD7B6962282 2017-07-12 [E] [revoked: 2017-07-14]
+sub   rsa4096/0x0111BD01AE141B41 2017-07-14 [E] [expires: 2018-08-12]
 
 $ gpg --with-fingerprint qubes-doc.asc
 pub   rsa4096/0x8CE137352A019A17 2015-02-25 [SC]
